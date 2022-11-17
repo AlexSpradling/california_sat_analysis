@@ -4,7 +4,7 @@
 ---
 ## Problem Statement
 
-*The Mayor would like to "move the needle on education". Our firm has been brought in to make recommendations on the best course of action. We will endeavor to use SAT/ACT enrollment and benchmark performance between California school districts in 2018-2019 order to analyze district-level causal factors for over and under performance, with the goal of recommending the most effective and equitable course of action to the town education board.
+*The Mayor would like to "move the needle on education". Our firm has been brought in to make recommendations on the best course of action. We will endeavor to use SAT/ACT enrollment and benchmark performance between California school districts in 2018-2019 order to analyze district-level causal factors for over and under performance, with the goal of recommending the most effective and equitable course of action to the town education board.*
 
 ## Summary
 
