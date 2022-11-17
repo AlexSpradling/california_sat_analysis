@@ -1,4 +1,4 @@
-# A Comparative Analysis of Standardized Test Results Between CA School Boards
+# A Comparative Analysis of Standardized Test Results Between CA School Districts
 --- 
 ### College-Readiness Benchmarks as a Barometer of Access and College Preparation
 ---
