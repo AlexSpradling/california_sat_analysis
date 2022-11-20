@@ -1,14 +1,21 @@
-# A Comparative Analysis of Standardized Test Results Between CA School Districts
+# A Comparative Analysis of Standardized Test Results Between CA School Boards
 --- 
 ### College-Readiness Benchmarks as a Barometer of Access and College Preparation
 ---
 ## Problem Statement
 
-*The Mayor would like to "move the needle on education". Our firm has been brought in to make recommendations on the best course of action. We will endeavor to use SAT/ACT enrollment and benchmark performance between California school districts in 2018-2019 in order to analyze district-level causal factors for over and under performance, with the goal of recommending the most effective and equitable course of action to the town education board.*
-
+The Mayor of Half Moon Bay, California would like to identify an "initiative" that the town can take to improve education outcomes. We use the percentage of students who meet national standards for college readiness, as as an indicator of education success, on the theory that public school education should prepare students for college-level academic performance (whether the student ultimately choses to enroll in college or begin a career.)  We aim to identify correlative relationships that could provide policy guidance for education spending, in particular focusing on levers the town can pull assuming that increased funding for the school district is not available -- and therefore focus on measures that would reallocate, rather than increase resources.  We acknowledge that the inputs may have only a correlative, and not causative, relationship on education outputs.  Nonetheless, we believe identifying these statistical relationships can provide useful  guidance for setting education policy.
 ## Summary
 
-A broad-spectrum analysis of SAT/ACT performance by California School district is undertaken, using the percent of students scoring at or above the SAT and ACT college-readiness benchmark scores as the primary metric. This report attempts to explain college-readiness benchmark under and overperformance at the school district level through the analysis of enrollment metrics, teacher demographic metrics-such as overall level of teacher education, student-to-teacher ratio and years teaching, as well as school district fiscal data.
+We analyzed SAT college readiness benchmarks as compared to various available  data sets to identify correlative relationships that could provide policy guidance for education spending.  First, we compared SAT and ACT benchmark performance to ensure there was no meaningful difference in the metrics.  We confirmed that both SAT and ACT benchmarks follow a similar distribution over the data set -- indicating that use of either metric as a proxy for student success would be reasonable.  We then analyzed whether the SAT or ACT was more commonly taken in California, to identify which test would provide a more robust data set for analysis.  The answer was overwhelmingly clear that the SAT is more frequently taken by California students.
+
+Then, using the SAT data set, we performed various analyses to identify correlative relationships between college readiness and potential policy determinations.  First, we analyzed the characteristics of the upper and lower ten school districts in terms of SAT benchmark performance.  In the upper 10 school districts, over 90% of the students met readiness benchmarks in both math and reading; in the lower 10 school districts, less than 20% of students met such benchmarks.  Further, in the upper 10 school districts, the percentage of students meeting both math and reading/writing benchmarks was approximately even; however, in the lower 10 school districts, the percentage of students achieving math benchmark readiness was significantly lower than reading/writing benchmarks.
+
+We then performed comparative analyses on the upper and lower school districts for the following factors:  (1) school funding, (2) student-teacher ratios; (3) teacher education level; and (4) teacher experience -- split into years teaching overall and years teaching within a particular district.
+
+Finally, we analyzed the exogenous factor of student socio-economic disadvantage. We believe this analysis has relevance in two ways: first, it demonstrates that while the above-identified factors may help drive policy, the correlative relationship is relatively weak (when compared to the socio-economic correlation, which is relatively strong).  Second, it may help focus the Mayor's policy agenda overall -- perhaps the Mayor's initiative should be focused not in the education area, per se, but in poverty-reduction, which may have knock-on positive effects to improving education outcomes (although this cannot of course be confirmed).
+
+
 
 ## Data Dictionary
 
@@ -54,3 +61,22 @@ A broad-spectrum analysis of SAT/ACT performance by California School district i
 | act_avg_scr_sci                 | float | CA 2019 ACT               | Average ACT science score.                                                                                                                                                                                                                                                                                                           |
 | act_num_ge_21                   | float | CA 2019 ACT               | The count of 12th graders scoring in excess of the ACT benchmark.                                                                                                                                                                                                                                                                    |
 | act_pct_ge_21                   | float | CA 2019 ACT               | The percent of 12th graders that exceeded the ACT readiness benchmark.                                                                                                                                                                                                                                                                                                                                     |
+
+## Conclusions and Recommendations
+
+### 1.  SAT vs. ACT Performance
+
+326,823 12th graders took the SAT  and 26,593 students that took the ACT in 2018-2019. 58% sand 56%, respectively, scored above the CollegeBoard benchmark in all subjects.  After normalizing the scores, we found that the distribution of results between the two tests was effectively the same such that use of either metric could be used as a proxy for student success.  Accordingly, due the larger sample size available for SAT scores, we determined to use SAT benchmark score achievement as our proxy for student education success against which to test correlative factors.
+### 2.  E.W.R vs. STEM
+
+The SAT/ACT benchmark results indicate a significant difference between success in english/writing versus STEM subjects. The mean percentage of all students meeting the SAT Evidence-based Reading and Writing benchmark was 73% versus 50% of all students meeting the readiness benchmark in Mathematics.  The ACT results are similar: 75% of the school districts met the readiness benchmark in English, 52% met the reading benchmark, 43% met the mathematics benchmark and 33% met the Science benchmark.
+
+These results suggest that STEM education lags English/writing education in California.  So, the Cabrillo school board could prioritize quality STEM education. If STEM benchmark performance can be increased to match English/writing performance, this would result in a significant outcome improvement.
+
+### 3. Teacher  Education and Experience
+
+Amongst the top 30 school districts in California, the average faculty member is 10% more educated than a faculty member in the Cabrillo Unified School district , and has two years more experience teaching.  These results suggest that focusing on teacher quality (measured by education and experience) could improve student education outcomes.
+
+### 4. Prioritize Programs to lift poverty level
+
+The strongest correlative relationship we identified was the negative correlation between socio-economic disadvantage and student success. Accordingly, we recommend that the Mayor authorize further study into programs that can be developed to address the underlying socio-economic disadvantages for students in the Cabrillo Unified District, which we believe could result in a positive impact on education outcomes.
