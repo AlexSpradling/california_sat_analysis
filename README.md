@@ -77,6 +77,6 @@ These results suggest that STEM education lags English/writing education in Cali
 
 Amongst the top 30 school districts in California, the average faculty member is 10% more educated than a faculty member in the Cabrillo Unified School district , and has two years more experience teaching.  These results suggest that focusing on teacher quality (measured by education and experience) could improve student education outcomes.
 
-### 4. Prioritize Programs to lift poverty level
+### 4. Prioritize Programs to Lift Socioeconomically Disadvantaged Students
 
 The strongest correlative relationship we identified was the negative correlation between socio-economic disadvantage and student success. Accordingly, we recommend that the Mayor authorize further study into programs that can be developed to address the underlying socio-economic disadvantages for students in the Cabrillo Unified District, which we believe could result in a positive impact on education outcomes.
