@@ -67,7 +67,7 @@ Finally, we analyzed the exogenous factor of student socio-economic disadvantage
 ### 1.  SAT vs. ACT Performance
 
 326,823 12th graders took the SAT  and 26,593 students that took the ACT in 2018-2019. 58% sand 56%, respectively, scored above the CollegeBoard benchmark in all subjects.  After normalizing the scores, we found that the distribution of results between the two tests was effectively the same such that use of either metric could be used as a proxy for student success.  Accordingly, due the larger sample size available for SAT scores, we determined to use SAT benchmark score achievement as our proxy for student education success against which to test correlative factors.
-### 2.  E.W.R vs. STEM
+### 2.  E.R.W. vs. STEM
 
 The SAT/ACT benchmark results indicate a significant difference between success in english/writing versus STEM subjects. The mean percentage of all students meeting the SAT Evidence-based Reading and Writing benchmark was 73% versus 50% of all students meeting the readiness benchmark in Mathematics.  The ACT results are similar: 75% of the school districts met the readiness benchmark in English, 52% met the reading benchmark, 43% met the mathematics benchmark and 33% met the Science benchmark.
 
