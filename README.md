@@ -4,7 +4,7 @@
 ---
 ## Problem Statement
 
-The Mayor of Half Moon Bay, California would like to identify an "initiative" that the town can take to improve education outcomes. Using the percentage of students who meet national standards for college readiness as an indicator of education success, we  aim to identify correlative relationships that could provide policy guidance for education spending, focusing on measures that would reallocate, rather than increase resources.  Acknowledging that the inputs may not have a causal effect on education outputs,  we believe identifying these statistical relationships can provide useful  guidance for setting education policy.
+Using the percentage of students who meet national standards for college readiness as an indicator of education success, we  aim to identify correlative relationships that could provide policy guidance for education spending, focusing on measures that would reallocate, rather than increase resources.  Acknowledging that the inputs may not have a causal effect on education outputs,  we believe identifying these statistical relationships can provide useful  guidance for setting education policy.
 ## Summary
 
 We looked to identify correlative relationships between college readiness benchmark results and various education inputs to provide policy guidance for education spending in the town of Half Moon Bay (Cabrillo Unified School District).  First, we compared SAT and ACT benchmark performance to ensure there was no meaningful difference in the metrics.  We confirmed that both SAT and ACT benchmarks follow a similar distribution over the data set -- indicating that use of either metric as a proxy for student success would be reasonable. We then analyzed whether the SAT or ACT was more commonly taken in California, to identify which test would provide a more robust data set for analysis. The answer was overwhelmingly clear that the SAT is more frequently taken by California students.  Next, we analyzed the distribution of SAT benchmark performance across 393 school districts in California to identify the upper 30 school districts (ranked in terms of SAT benchmark performance) and compared them to Cabrillo Unified School District. Among the top 30 school districts, close to 90% of the students met readiness benchmarks in both math and reading; in Cabrillo Unified only 78% of students met SAT readiness-benchmarks in all subjects.  Our goal was to identify factors that correlated with that gap.
@@ -63,16 +63,25 @@ In light of this finding, we analyzed the exogenous factor of student socio-econ
 ### 1.  SAT vs. ACT Performance
 
 326,823 12th graders took the SAT  and 26,593 students that took the ACT in 2018-2019. 58% sand 56%, respectively, scored above the CollegeBoard benchmark in all subjects.  After normalizing the scores, we found that the distribution of results between the two tests was effectively the same such that use of either metric could be used as a proxy for student success.  Accordingly, due the larger sample size available for SAT scores, we determined to use SAT benchmark score achievement as our proxy for student education success against which to test correlative factors.
+
+![](/readme_images/sat_vs_act.png)
+
 ### 2.  E.R.W. vs. STEM
 
 The SAT/ACT benchmark results indicate a significant difference between success in english/writing versus STEM subjects. The mean percentage of all students meeting the SAT Evidence-based Reading and Writing benchmark was 73% versus 50% of all students meeting the readiness benchmark in Mathematics.  The ACT results are similar: 75% of the school districts met the readiness benchmark in English, 52% met the reading benchmark, 43% met the mathematics benchmark and 33% met the Science benchmark.
 
 These results suggest that STEM education lags English/writing education in California.  So, the Cabrillo school board could prioritize quality STEM education. If STEM benchmark performance can be increased to match English/writing performance, this would result in a significant outcome improvement.
 
+![](/readme_images/math_vs_erw.png)
+
 ### 3. Teacher  Education and Experience
 
 Amongst the top 30 school districts in California, the average faculty member is 10% more educated than a faculty member in the Cabrillo Unified School district , and has two years more experience teaching.  These results suggest that focusing on teacher quality (measured by education and experience) could improve student education outcomes.
 
+![](/readme_images/teacher_experience.png)
+
 ### 4. Prioritize Programs to Lift Socioeconomically Disadvantaged Students
 
-The strongest correlative relationship we identified was the negative correlation between socio-economic disadvantage and student success. Accordingly, we recommend that the Mayor authorize further study into programs that can be developed to address the underlying socio-economic disadvantages for students in the Cabrillo Unified District, which we believe could result in a positive impact on education outcomes.
+The strongest correlative relationship we identified was the negative correlation between socio-economic disadvantage and student success. Accordingly, we recommend further study into programs that can be developed to address the underlying socio-economic disadvantages for students in the Cabrillo Unified District, which we believe could result in a positive impact on education outcomes.
+
+![](/readme_images/socioeconomic.png)
